@@ -1,3 +1,47 @@
 body{
-    background-color: skyblue;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+.banner{
+    display: flex;
+    background-color: rgba(229, 84, 115, 0.10);
+    height: 850px;
+    padding-top: 50px;
+    padding-right: 240px;
+    padding-left: 240px;
+}
+.banner-info{
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-right: 50px;
+    
+}
+.banner-text{
+font-family: Lato;
+font-size: 80px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.btn-primary{
+    width: 177px;
+    height: 64px;
+    border-radius: 8px;
+    background: #E55473;
+    color: white;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+}
+.banner-image{
+    width: 50%;
+    margin-left: 50px;
+}
+.banner-image img{
+    height: 850px;
+    width: 635px ;
 }

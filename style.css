@@ -6,17 +6,18 @@ body{
 .banner{
     display: flex;
     background-color: rgba(229, 84, 115, 0.10);
-    height: 850px;
+    height: 100vh;
     padding-top: 50px;
-    padding-right: 240px;
+    padding-right: 300px;
     padding-left: 240px;
+    gap: 120px;
 }
 .banner-info{
     width: 50%;
-    text-align: start;
     align-items: center;
     margin: auto;
-    margin-right: 50px;
+    height: 850px;
+    padding-right: 50px;
 }
 .banner-info>p{
     color: rgba(39, 39, 39, 0.60);
@@ -27,15 +28,20 @@ body{
     line-height: 30px;
 }
 .banner-text{
-font-family: Lato;
-font-size: 80px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    display: flex;
+    width: 708px;
+    flex-direction: column;
+    flex-shrink: 0;
+    height: 288px;
+    font-family: Lato;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 .btn-primary{
-    width: 177px;
-    height: 64px;
+    width: 150px;
+    height: 55px;
     border-radius: 8px;
     background: #E55473;
     color: white;
@@ -47,10 +53,9 @@ line-height: normal;
 }
 .banner-image{
     width: 50%;
-    margin-left: 50px;
+    height: 100vh;
 }
 .banner-image img{
-    height: 850px;
-    width: 635px ;
+    height: 100vh;
 }
 /* banner section style End */

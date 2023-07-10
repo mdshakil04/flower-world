@@ -59,3 +59,67 @@ body{
     height: 100vh;
 }
 /* banner section style End */
+.feature-text{
+    text-align: center;
+
+}
+.feature-text> h2{
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.feature-text>p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.feature-flowers{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    gap: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+
+}
+.feature-flower-1{
+    display: flex;
+    align-items: flex-end;
+    height: 538px;
+    width: 400px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+.feature-flower-2{
+    display: flex;
+    align-items: flex-end;
+    height: 538px;
+    width: 400px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+.feature-flower-3{
+    display: flex;
+    align-items: flex-end;
+    height: 538px;
+    width: 400px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+.feature-p{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}

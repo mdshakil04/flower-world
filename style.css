@@ -166,3 +166,121 @@ body{
     font-weight: 800;
     line-height: normal;
 }
+/* Instgram section style start */
+.insta-info{
+    text-align: center;
+}
+.insta-info h3{
+    color: #272727;
+    text-align: center;
+    font-family: lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.insta-info p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.insta-image-container{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    gap: 25px;
+}
+.insta-img{
+    width: 342px;
+    height: 396px;
+}
+/* input section style start */
+.input-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    height: 450px;
+    width: 1440px;
+    margin-top: 120px;
+    margin-bottom: 30px;
+    justify-content: center;
+    background-image: url("./Flower Asset/input/Rectangle 9.png");
+    background-repeat: no-repeat;
+}
+.input-info h2{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.input-info p{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+.input-field{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    margin-top: 18px;
+}
+.input-area{
+    width: 700px;
+    height: 55px;
+    border: none;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+/* Footer style start */
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #111010;
+    color: rgba(255, 255, 255, 0.90);
+    height: 400px;
+}
+.footer-section h2{
+    font-family: lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.footer-section span{
+    color: #E55473;
+}
+.footer-section p{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+}
+.footer-section small{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

@@ -6,7 +6,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* position: ; */
     padding-right: 240px;
     padding-left: 240px;
     background-color: rgba(5, 151, 160, 0.15);
@@ -27,6 +26,7 @@ body{
 .nav h1{
     font-weight: 800;
     font-size: 30px;
+    font-style: italic;
 }
 .nav span{
     color: #E55473;
